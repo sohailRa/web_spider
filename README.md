@@ -8,8 +8,7 @@ Install methods:
 
     pip install scrapy
 
-Install methods:
-
-    https://doc.scrapy.org/en/latest/intro/install.html
+Resources:
+[scrapy docs](https://doc.scrapy.org/en/latest/intro/install.html)
   
   

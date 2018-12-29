@@ -14,6 +14,7 @@ Install methods:
 Run:
 
     scrapy crawl quotes -o quotes.json
+    scrapy crawl author -o author.json
 
 Resources:
   [Scrapy Docs](https://doc.scrapy.org/en/latest/intro/install.html)

@@ -9,6 +9,6 @@ Install methods:
     pip install scrapy
 
 Resources:
-[scrapy docs](https://doc.scrapy.org/en/latest/intro/install.html)
+[Scrapy Docs](https://doc.scrapy.org/en/latest/intro/install.html)
   
   

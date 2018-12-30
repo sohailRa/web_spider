@@ -92,4 +92,4 @@ ROBOTSTXT_OBEY = True
 ITEM_PIPELINES = {
   'scrapy.pipelines.images.ImagesPipeline': 1
 }
-IMAGES_STORE = 'freedomMobile/images/'
+IMAGES_STORE = 'output/images/'

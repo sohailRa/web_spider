@@ -14,10 +14,3 @@ class TechCrunchArticleLoader(ItemLoader):
 
     tags_in = MapCompose(unicode.strip)
     tags_out = Join(separator=u'; ')
-
-class RecodeArticleLoader(TechCrunchArticleLoader):
-    subtitle_in = MapCompose(unicode.strip)
-    subtitle_out = Join()
-
-class VentureBeatArticleLoader(TechCrunchArticleLoader):
-    pass

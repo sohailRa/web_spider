@@ -8,7 +8,12 @@
 import scrapy
 
 
-class TechcrunchV2Item(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class Article(scrapy.Item):
+
+    title = scrapy.Field()
+    text = scrapy.Field()
+    subtitle = scrapy.Field()
+    # A semicolon separated list of the article tags, if they exist
+    tags = scrapy.Field()
+    date = scrapy.Field()
+    url = scrapy.Field()

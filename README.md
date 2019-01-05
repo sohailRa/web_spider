@@ -10,5 +10,10 @@ Install methods:
 
 Resources:
 [Scrapy Docs](https://doc.scrapy.org/en/latest/intro/install.html)
+
+
+project gen: scrapy startproject <project_name>
+spider gen: scrapy genspider <name_spider> <url>
+
   
   

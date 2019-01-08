@@ -11,7 +11,7 @@ class TechCrunchSpider(scrapy.Spider):
     name = "techcrunch"
 
     def start_requests(self):
-        start_date = datetime(2018, 12, 11)
+        start_date = datetime(2018, 11, 11)
 
         date = start_date
         while date <= datetime.now():
